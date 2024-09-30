@@ -2,3 +2,6 @@ h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
+body {
+  background-color: rgb(155, 22, 111);
+}
