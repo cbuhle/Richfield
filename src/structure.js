@@ -4,4 +4,7 @@ function pressButton() {
   let surname = document.querySelector("#last-name");
   h1.innerHTML = `Successful Registration! ${name} ${surname} `;
 }
+let button = document.querySelector(".search-button");
+button.addEventListener("submit", pressButton);
 pressButton();
+console.log(button);
